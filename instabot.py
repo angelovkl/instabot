@@ -117,12 +117,11 @@ class Instabot:
 
 
 
-bot = Instabot('svashtarija', 'Svastarija123!')
-# jovana_markovska
-# gocanin_a
+bot = Instabot('user', 'pass')
 
-# bot.user_followers('slagjan.arsovski')
-# print("main done")
+
+bot.user_followers('')
+print("main done")
 users_to_follow = open('output.txt', 'r')
 lines = users_to_follow.readlines()
 users_to_follow_limit = random.randint(55,62)
